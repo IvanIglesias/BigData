@@ -5,7 +5,7 @@ Repositorio Big Data y Bi
 Estudio Productos de Temporada
 
 ### Archivos
-  Xls precios;
+  Xls precios
   Código python
   Esquemas Pandas Python pdf
   Esquemas Pandas Python Mindnote
@@ -20,5 +20,5 @@ Estudio Productos de Temporada
   Eventos Madrid
   
 ### Archivos
-  Memória Eventos Madrid
+  Memoria Eventos Madrid
 
