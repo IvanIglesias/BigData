@@ -1,0 +1,72 @@
+// Ejercicio Clase 1
+
+// Ejercicio 1
+var i = 0
+for (i <- 1 to 100  )
+{
+ if (i% 5 == 0)
+    println(i)
+  else
+    print(i)
+}
+
+
+// Ejercicio 2
+
+var y = 0
+for (y <- 1 to 100  )
+{
+  y match {
+    case z if z%5 == 0 & z%3 == 0  => println("Trio y Cinco")
+    case z if z%3 == 0 => println("Trio")
+    case z if z%5 == 0 => println("Cinco")
+    case z => println(z)
+  }
+
+}
+
+// Ejercicio 3
+
+var c = 10
+var f = 0
+f = (c * 9/5) + 32
+println(f"$c%.2f grados Centigrados son $f%.2f grados Fahrenheit")
+println(s"${c} grados Centigrados son ${f} grados Fahrenheit")
+
+// Ejercicio 4
+var credito = 3.4657
+println(f"Prestame $credito%.2f dolares")
+
+
+// Ejercicio 5
+
+var numero = 128
+numero.toChar
+numero.toString
+numero.toDouble
+numero.toInt
+
+
+//Ejercicio 6
+var str = Unit
+val nada = Unit
+str match {
+  case strM if str == nada => println("La cadena está vacia")
+  case strM  =>  println(str)
+}
+
+
+//Ejercicio 7
+
+var cantidad = 1100
+
+if (cantidad > 0) println("es mayor que 0")
+else if (cantidad == 0) println("es igual que 0")
+else if (cantidad < 0) println("es menor que 0")
+
+cantidad match {
+  case cantidadM if cantidadM > 0 => println("es mayor que 0")
+  case cantidadM if cantidadM == 0 => println("es igual que 0")
+  case cantidadM if cantidadM < 0 => println("es menor que 0")
+}
+
