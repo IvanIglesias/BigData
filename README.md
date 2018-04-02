@@ -2,7 +2,7 @@
 Repositorio Big Data y Bi
 
 ## Python
-Estudio Productos de Temporada
+  Estudio Productos de Temporada
 
 ### Archivos
   Xls precios
@@ -21,4 +21,9 @@ Estudio Productos de Temporada
   
 ### Archivos
   Memoria Eventos Madrid
+  
+## Scala
+  Tratamiento Ficheros
+### Archivos
+  Transacciones.txt
 
